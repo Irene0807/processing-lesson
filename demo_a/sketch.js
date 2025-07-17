@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(230);
+  background(255);
 
   if (frameCount % 5 === 0) {
     let newBubble = createNonOverlappingBubble();
